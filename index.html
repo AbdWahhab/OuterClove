@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outer Clove Restaurant</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navigation menu -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <input type="checkbox" id="nav-toggle">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="pages/foodmenu.html">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <div class="logo">
+                <img src="images/restaurantLogo.png" alt="Outer Clove Restaurant Logo">
+            </div>
+        </div>
+    </nav>
+    <!-- End of menu -->
+
+    <!-- Home section -->
+    <section id="showcase" class="showcase-area">
+        <div class="showcase-container">
+            <h1 class="main-title" id="home">Welcome to the <br> Outer Clove Restaurant</h1>
+            <p>Eat Healthy, It is good for our health.</p>
+            <a href="pages/foodmenu.html" class="btn btn-primary">Menu</a>
+        </div>
+    </section>
+    <!-- End of home section -->
+
+    <!-- About section -->
+    <section id="about">
+        <div class="about-wrapper container">
+            <div class="about-text">
+                <p class="small">About Us</p>
+                <p>Outer Clove is a heaven for food enthusiasts seeking a fusion of flavors and a warm, inviting atmosphere. Our culinary journey is rooted in a commitment to sourcing the freshest ingredients, crafting each dish with precision and creativity. From our signature seafood delights to our tantalizing vegetarian options, every plate tells a story of innovation and dedication to quality. Whether you're savoring a meal with loved ones or enjoying a quiet evening by the sea, Outer Clove invites you to experience a symphony of taste that will linger long after your visit.</p>
+            </div>
+            <div class="about-img">
+                <img src="https://media.istockphoto.com/id/1081422898/photo/pan-fried-duck.jpg?s=612x612&w=0&k=20&c=kzlrX7KJivvufQx9mLd-gMiMHR6lC2cgX009k9XO6VA=" alt="Delicious food">
+            </div>
+        </div>
+    </section>
+    <!-- End of about section -->
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <h2 class="testimonial-title">What Our Customers Say</h2>
+        <div class="testimonial-container container">
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="images/Ismail.jpg" alt="Customer Ismail">
+                        <p class="customer-name">Ismail</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">I had the pleasure of dining at Outer Clove last weekend, and it was an unforgettable experience.</p>
+            </div>
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="images/atheeb.jpg" alt="Customer Atheeb">
+                        <p class="customer-name">Atheeb</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star-half-alt checked"></span>
+                </div>
+                <p class="testimonial-text">Outer Clove offers a fantastic dining experience with a menu that garlic lovers will adore.</p>
+            </div>
+            <div class="testimonial-box">
+                <div class="customer-detail">
+                    <div class="customer-photo">
+                        <img src="images/Ahmadh.jpeg" alt="Customer Ahmadh Sattar">
+                        <p class="customer-name">Ahmadh Sattar</p>
+                    </div>
+                </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="far fa-star checked"></span>
+                    <span class="far fa-star checked"></span>
+                </div>
+                <p class="testimonial-text">Outer Clove has quickly become my favorite restaurant. If you love garlic as much as I do, this is the place for you.</p>
+            </div>
+        </div>
+    </section>
+    <!-- End of testimonials -->
+
+    <!-- Contact section -->
+    <section id="contact">
+        <div class="contact-container container">
+            <div class="contact-img">
+                <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="Restaurant">
+            </div>
+            <form class="form-container">
+                <h2>Contact Us</h2>
+                <input type="text" name="name" id="name" placeholder="Your Name" required>
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+                <textarea name="msg" id="msg" cols="30" rows="5" placeholder="Type your message" required></textarea>
+                <input type="submit" value="Submit" class="btn btn-primary">
+            </form>
+        </div>
+    </section>
+    <!-- End of contact section -->
+
+    <footer id="footer">
+        <h2>Outer Clove &copy; 2023, All Rights Reserved.</h2>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        // Add JavaScript for smooth scrolling or other interactions here if needed
+    </script>
+</body>
+</html>
